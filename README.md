@@ -69,7 +69,7 @@ FAUNA_API_KEY=""
 
 ## 🔖 Layout
 
-Check Figma Layout of this project [here](<href="https://www.figma.com/file/QKxbxCVwwlDLMrCtHae239/Desafio-2-M%C3%B3dulo-4-ReactJS/duplicate">)
+Check Figma Layout of this project [here](https://www.figma.com/file/QKxbxCVwwlDLMrCtHae239/Desafio-2-M%C3%B3dulo-4-ReactJS/duplicate)
 
 <br>
 
