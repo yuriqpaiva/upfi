@@ -7,7 +7,7 @@
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/yuriqpaiva/upfi?color=blueviolet">
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/yuriqpaiva/upfi?color=red">
+  <img alt="GitHub" src="https://img.shields.io/github/license/yuriqpaiva/dashgo?color=red">
 </p>
 
 <div align="center">
