@@ -25,6 +25,7 @@ export default function Home(): JSX.Element {
       });
       return response;
     },
+    // TODO GET AND RETURN NEXT PAGE PARAM
     {
       getNextPageParam: lastPage => {
         if (lastPage.data.after) {
@@ -33,7 +34,6 @@ export default function Home(): JSX.Element {
         return null;
       },
     }
-    // TODO GET AND RETURN NEXT PAGE PARAM
   );
 
   const formattedData = useMemo(() => {
@@ -61,7 +61,11 @@ export default function Home(): JSX.Element {
         <CardList cards={formattedData} />
         {/* TODO RENDER LOAD MORE BUTTON IF DATA HAS NEXT PAGE */}
         {hasNextPage && (
-          <Button onClick={() => fetchNextPage()} disabled={isFetchingNextPage}>
+          <Button
+            onClick={() => fetchNextPage()}
+            disabled={isFetchingNextPage}
+            mt="10"
+          >
             {isFetchingNextPage ? 'Carregando...' : 'Carregar mais'}
           </Button>
         )}
