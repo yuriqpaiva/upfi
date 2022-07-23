@@ -19,7 +19,6 @@
 ## 💡 Introduction
 
 Image upload web application
-
 - Upload your images
 - View your uploaded images
 - Go to image URL origin
